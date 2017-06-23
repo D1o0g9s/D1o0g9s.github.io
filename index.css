@@ -1,7 +1,28 @@
 body {
+    font-family: monospace;
   
 }
 
 a { 
-    target: _blank;
+    margin: 20px;
+}
+
+#MyName {
+    text-align: center;
+    margin: 50px;
+    font-size: 200%;
+}
+
+#MainLinks {
+    text-align: center;
+
+    
+}
+
+#OtherLinks {
+    width: 420px;
+    margin-top: 50px;
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
 }
