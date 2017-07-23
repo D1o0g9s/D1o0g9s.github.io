@@ -1,23 +1,61 @@
 body {
-    font-family: monospace;
-  
+    font-family: 'Impact';
+    background-color: rgb(190,150,190);
 }
 
 a { 
+    color: purple;
     margin: 20px;
+}
+a:hover {
+    color: white;
+}
+
+#Header {
+    text-align: center;
+    margin: 35px;
+    font-size: 400%; 
+}
+#Header img {
+    height: 100px;
 }
 
 #MyName {
-    text-align: center;
-    margin: 50px;
-    font-size: 200%;
+    margin: 0px;
 }
+
 
 #MainLinks {
     text-align: center;
-
-    
 }
+#MainLinks img {
+    height: 25px;
+    border-radius: 6px;
+    
+
+    opacity: 1;
+}
+#MainLinks img:hover {
+    background-color: white;
+    opacity: 0.7;
+}
+
+
+#Resume {
+    text-align: center;
+}
+
+#Resume img {
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 480px;
+    opacity: 0.6; 
+}
+
+#Resume img:hover {
+    opacity: 1;
+}
+
 
 #OtherLinks {
     width: 420px;
@@ -25,4 +63,58 @@ a {
     position: static;
     margin-right: auto;
     margin-left: auto;
+}
+
+.hide {
+    display: none;
+}
+
+
+.hoverObject {
+    position: relative;
+    display: inline-block;
+}
+.hoverObject .hoverText {
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 7px);
+    left: 0;
+    right: 0;
+
+    opacity: 0;
+    transition: opacity 0.75s;
+}
+
+.hoverObject .hoverText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.hoverObject:hover .hoverText{
+    visibility: visible;
+    opacity: 1;
+}
+
+#Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 70%; 
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: 0.7;
 }
