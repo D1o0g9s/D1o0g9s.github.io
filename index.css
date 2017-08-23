@@ -5,7 +5,7 @@ body {
 
 a { 
     color: purple;
-    margin: 30px;
+    
 }
 a:hover {
     color: white;
@@ -36,7 +36,7 @@ hr {
     height: 25px;
     border-radius: 6px;
     
-
+    margin: 30px;
     opacity: 1;
 }
 #MainLinks img:hover {
@@ -47,6 +47,8 @@ hr {
 
 #Resume {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Resume img {
@@ -55,8 +57,7 @@ hr {
     width: 90%;
     max-width: 480px;
     opacity: 0.7; 
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 #Resume img:hover {
@@ -117,7 +118,7 @@ hr {
 }
 
 #Footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     font-size: 70%; 
