@@ -5,7 +5,7 @@ body {
 
 a { 
     color: purple;
-    margin: 20px;
+    margin: 30px;
 }
 a:hover {
     color: white;
@@ -23,11 +23,11 @@ a:hover {
 #MyName {
     margin: 0px;
 }
-
-
 #MainLinks {
     text-align: center;
+    
 }
+
 #MainLinks img {
     height: 25px;
     border-radius: 6px;
