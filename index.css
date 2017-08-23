@@ -20,6 +20,10 @@ a:hover {
     height: 100px;
 }
 
+hr {
+    max-width: 700px;
+}
+
 #MyName {
     margin: 0px;
 }
@@ -49,7 +53,7 @@ a:hover {
     border-radius: 25px;
     margin-top: 20px;
     width: 480px;
-    opacity: 0.6; 
+    opacity: 0.7; 
 }
 
 #Resume img:hover {
